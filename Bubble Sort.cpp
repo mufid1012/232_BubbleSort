@@ -25,10 +25,6 @@ void input(){
         cin >> arr[i];
     }
 
-int main(){
-
-}
-
 }void bubbleSortArray(){ //procedur untuk mengurutkan array
     int pass= 1; //step 1
     do {
@@ -52,5 +48,12 @@ int main(){
     }
     cout << "jumlah pass = " << n-1  << endl;
     cout << endl;  
+}
+
+int main(){
+ input();
+        bubbleSortArray();
+        display();
+        system("pause");
 }
 
